@@ -18,7 +18,7 @@ const HomePage = () => (
       {/* Konten Kanan (Gambar) - Disesuaikan agar "terpotong" */}
       <div className="relative md:w-1/2 mt-8 md:mt-0">
         <div className="relative md:w-full h-auto mt-8 md:mt-0 flex justify-start">
-          <img src="/public/bunga besar.png" alt="Bunga Besar" />
+          <img src="/bunga besar.png" alt="Bunga Besar" />
         <div className="absolute top-1/2 left-1/3">
           <img src="/bungakecil.png" alt="Bunga Kecil" />
         </div>
