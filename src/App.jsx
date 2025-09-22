@@ -20,7 +20,7 @@ const HomePage = () => (
         <div className="relative md:w-full h-auto mt-8 md:mt-0 flex justify-start">
           <img src="/public/bunga besar.png" alt="Bunga Besar" />
         <div className="absolute top-1/2 left-1/3">
-          <img src="/public/bunga kecil.png" alt="Bunga Kecil" />
+          <img src="/bungakecil.png" alt="Bunga Kecil" />
         </div>
         </div>
       </div>
@@ -91,12 +91,12 @@ const App = () => {
           <div className="flex space-x-6 font-poppins text-[20px] !text-[#aa6a3a] font-semibold">
             <a 
               onClick={() => setActivePage('home')}
-              className={`!text-[#aa6a3a] hover:text-pink-500 transition-colors duration-300 ${activePage === 'home' ? 'underline' : ''}`}>
+              className={`!text-[#aa6a3a] hover:text-pink-500 transition-colors duration-300 ${activePage === 'home' ? 'underline' : ''} cursor-pointer`}>
                 Home
             </a>
             <a 
               onClick={() => setActivePage('about')}
-              className={`!text-[#aa6a3a] hover:text-pink-500 transition-colors duration-300 ${activePage === 'about' ? 'underline' : ''}`}>
+              className={`!text-[#aa6a3a] hover:text-pink-500 transition-colors duration-300 ${activePage === 'about' ? 'underline' : ''} cursor-pointer`}>
                 About Us
             </a>
             <a className="!text-[#aa6a3a] hover:text-pink-500 transition-colors duration-300">Our Vendor</a>
